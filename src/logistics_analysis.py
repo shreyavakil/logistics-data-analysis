@@ -11,7 +11,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 # 1. LOAD DATA
 # ----------------------------------------
 
-orders = pd.read_csv("orders.csv")
+orders = pd.read_csv("data/orders.csv")
+
 
 print("Dataset Shape:", orders.shape)
 print(orders.head())
